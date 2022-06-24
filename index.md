@@ -1,4 +1,9 @@
-## Welcome to GitHub Pages
+---
+title:Всем привет
+---
+
+
+## {{ page.title }}
 
 You can use the [editor on GitHub](https://github.com/Dmistep/test-for-test/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
