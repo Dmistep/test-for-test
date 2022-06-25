@@ -16,9 +16,9 @@
     </p>
     <h3 class="section-title">Шпаргалки</h3>
     <ul class="unstyled-list">
-        <li><a target="_blank" href="http://htmlbook.ru/css-cheat-sheet">HTML Book</a> – шпаргалка по
-            HTML и CSS</li>
-
+        {% for item in site.links %}
+        <li><a target="_blank" href="{{ item.url }}">{{ item.name }}</a> {{ item.memo }}</li>
+         {% endfor %}
     </ul>
 </body>
 </html>
