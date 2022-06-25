@@ -4,7 +4,11 @@ links:
    name: HTML Book
    memo: – шпаргалка по HTML и CSS
  - url: https://adam-marsden.co.uk/css-cheat-sheet
-   name: 
+   name: CSS Cheat Sheet
+   memo: – шпаргалка по CSS
+ - url: http://jquery.page2page.ru/
+   name: jQuery page2page
+   memo: – шпаргалка по jQuery
  
 
 theme: jekyll-theme-minimal
