@@ -1,4 +1,7 @@
 title: Общий привет
-
+links:
+ - url: http://htmlbook.ru/css-cheat-sheet
+   name: HTML Book
+   memo: – шпаргалка по HTML и CSS
 
 theme: jekyll-theme-minimal
