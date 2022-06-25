@@ -1,7 +1,7 @@
 title: Общий привет
 links-CheatSheet:
- - url: http://htmlbook.ru/css-cheat-sheet
-   name: HTML Book
+ - url: post.html
+   name: Мои посты
    memo: – шпаргалка по HTML и CSS
  - url: https://adam-marsden.co.uk/css-cheat-sheet
    name: CSS Cheat Sheet
