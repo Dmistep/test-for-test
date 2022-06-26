@@ -10,6 +10,6 @@ links-CheatSheet:
    name: jQuery page2page
    memo: – шпаргалка по jQuery
  
-
+markdown: kramdown
 theme: minima
 future: tru
