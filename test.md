@@ -3,6 +3,6 @@ title: test.md
 ---
 
 
-# Header
+# {{ page.title }}
 
 text
