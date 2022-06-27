@@ -53,7 +53,17 @@ minima:
 # - jekyll-feed
 # - jekyll-seo-tag
 
-
+top-menu:
+- url: test.md
+  name: HTML
+- url: #
+  name: CSS
+- url: #
+  name: Linux
+- url: #
+  name: Windows
+- url: #
+  name: Администрирование
 
 
 
