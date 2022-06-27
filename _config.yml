@@ -54,7 +54,7 @@ minima:
 # - jekyll-seo-tag
 
 top-menu:
-- url: /main/test.md
+- url: test-for-test/main/test.md
   name: HTML
 - url: #
   name: CSS
