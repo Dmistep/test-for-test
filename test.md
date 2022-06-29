@@ -2,8 +2,4 @@
 layout: default
 title: test.md
 ---
-
-
-# {{ page.title }}
-
-text
+[blog](blog.html)
