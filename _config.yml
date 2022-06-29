@@ -22,7 +22,8 @@ minima:
 # - about.md
 
 # Build settings
-# theme: minima
+markdown: kramdown
+theme: minima
 
 #plugins:
 # - jekyll-feed
