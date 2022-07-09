@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Home
+#title: Home
 ---
 
-{% assign page = site.posts.first %}
+<!--{% assign page = site.posts.first %}
 {% assign content = page.content %}
-{% include post.html %}
+{% include post.html %}-->
