@@ -23,7 +23,7 @@ minima:
 
 # Build settings
 markdown: kramdown
-# theme: minima
+theme: flex
 
 #plugins:
 # - jekyll-feed
