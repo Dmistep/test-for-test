@@ -1,8 +1,8 @@
 ---
 layout: default
+title: Home
 ---
 
-
-# Привет мой мир
-
-не большой текст
+{% assign page = site.posts.first %}
+{% assign content = page.content %}
+{% include post.html %}
