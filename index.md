@@ -8,8 +8,21 @@ title: Мой блог.
 {% include post.html %}-->
 <h1 id="title">{{ site.title }}</h1>
 
-Привет всем, меня зовут Дмитрий! Я стал веб-разработчиком совсем недавно, проработав много лет в IT сфере и занимался сетями.
+<div id="archives">
+{% for category in site.categories %}
+  <div class="archive-group">
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <div id="#{{ category_name | slugize }}"></div>
+    <p></p>
 
-С тех пор, как я начал работать системным администратором и стал заниматься веб-разработкой, я узнал довольно много полезных вещей, и, поскольку моя память не самая сильная моя сторона, я решил записать их в блог и сделать их доступными для всех.
-
-Это будет полезно мне и надеюсь, понравится тем кто прочтёт!
+    <h3 class="category-head">{{ category_name }}</h3>
+    <a name="{{ category_name | slugize }}"></a>
+    {% for post in site.categories[category_name] %}
+    <article class="archive-item">
+      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+    </article>
+    {% endfor %}
+  
+  </div>
+{% endfor %}
+</div>
