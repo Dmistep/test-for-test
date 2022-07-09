@@ -6,7 +6,7 @@ title: Мой блог.
 <!--{% assign page = site.posts.first %}
 {% assign content = page.content %}
 {% include post.html %}-->
-<h1 id="title">{{ page.title }}</h1>
+<h1 id="title">{{ site.title }}</h1>
 
 Привет всем, меня зовут Дмитрий! Я стал веб-разработчиком совсем недавно, проработав много лет в IT сфере и занимался сетями.
 
